@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Computer World</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.css" />
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.js"></script>
+    <style>
+        /*this block should go in the styles.css file*/
+        .ui-panel-inner {
+            padding:0px; /*make the buttons flush edge to edge*/
+           color: #FFFFFF;
+           background-color: #8F79B2;
+        }
+        .ui-controlgroup {
+            margin:0; /*make the buttons flush to the top*/
+           color: #FFF FFF;
+           background-color: #8F79B2;
+        }
+        #header {
+            height:54px;
+            background-color: #8F79B2;
+        }
+        #bars-button {
+            margin:7px;
+        }
+        #navpanel
+        {
+        	padding: 54px;
+        	background-color: #8F79B2;
+        }
+        .panelMenu
+        {
+        	background-color: #8F79B2;
+        	
+        }
+        
+        
+    </style>
+</head>
+<body>
+
+<div data-role="page" id="home" class="panelMenu">
+
+    <div data-role="panel" id="navpanel" 
+         data-display="overlay" data-position="right">
+        <div data-role="controlgroup" data-corners="false">
+            <a href="#" data-role="button">Statements</a>
+            <a href="#" data-role="button">Strategies</a>
+            <a href="#" data-role="button">Definitions</a>
+            <a href="#" data-role="button">Resources</a>
+            <a href="#" data-role="button">About Me</a>
+        </div>
+    </div>
+
+    <div id="header" data-role="header">
+         <a id="bars-button" href="#navpanel" class="ui-icon-nodisc" data-role="button" data-iconshadow="false" data-icon="bars" data-iconpos="notext" data-inline="true">No disc or shadow</a>
+         
+    </div>
+</div>
+   	
+    	
+    </div>
+</div>
+</body>
+</html>
