@@ -32,26 +32,26 @@
 	
 .ui-block-a {
     background-color: #8F79B2;
-    height: 25%;
-    width: 50 %;
-     font-family: Helvetica;
-    color: #FFFFFF;
-    text-align: center;
-    padding: 23.7px;
-}
-.ui-block-b {
-    background-color: #434DA1;
-    height: 25% px;
-    width: 50% px;
+    height: 33.33 em;
+    width: 50 em;
     font-family: Helvetica;
     color: #FFFFFF;
     text-align: center;
-    padding: 23.7px;
+    padding: 30px;
+}
+.ui-block-b {
+    background-color: #434DA1;
+    height: 33.33 em;
+    width: 50 em;
+    font-family: Helvetica;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 30px;
 }
 
 .menuLogos{
-	width:110.25px;
-	height:110.21px;
+	width:115.25px;
+	height:115.21px;
 }
 
 .ui-content{
